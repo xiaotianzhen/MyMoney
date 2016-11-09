@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dong.mymoney">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mymoney"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="MyMoney">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddInaccountActivity"
+         />
+        <activity android:name=".InaccountHandlerActivity"
+
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AddOutaccountActivity"
+            />
+        <activity
+            android:name=".OutaccountHandlerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NewFlagActivity"
+          />
+        <activity android:name=".FlagHanderActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+         ></activity>
+    </application>
+
+</manifest>

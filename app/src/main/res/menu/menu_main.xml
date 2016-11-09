@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dong.mymoney.MainActivity">
+    <item
+        android:id="@+id/action_addInaccount"
+        android:title="添加收入"
+        />
+    <item
+        android:id="@+id/action_addOutaccount"
+        android:title="添加支出"
+        />
+    <item
+        android:id="@+id/action_addFlag"
+        android:title="添加便签"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:title="设置"
+        />
+    <item
+        android:id="@+id/action_back"
+        android:title="退出"
+        />
+
+</menu>
